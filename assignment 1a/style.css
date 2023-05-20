@@ -1,0 +1,35 @@
+body {
+  background-color:rgb(1, 38, 90);
+  padding: 25px;
+  margin: 10px;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+}
+.student-profile .card {
+  border-radius: 10px;
+  align-items: center;
+  /*align-self: center;*/
+}
+.student-profile .card .card-header .profile_img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  margin: 10px auto;
+  border: 2.5px solid rgb(0, 0, 0);
+  border-radius: 50px;
+ 
+}
+.student-profile .card h3 {
+  font-size: 30px;
+  font-weight: 700;
+  
+}
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 18px;
+    padding: 10px 10px;
+    color: #000;
+    border:1px solid ;
+    border-radius: 10px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}

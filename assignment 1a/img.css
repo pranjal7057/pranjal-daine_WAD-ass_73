@@ -1,0 +1,10 @@
+
+    h1 {text-align: center;}
+
+    h1 {
+  font-size: 100%; /* 40px/16=2.5em */
+      padding :  10px 100px 0px 10px;
+}
+img {
+    border-radius: 50%;
+}
